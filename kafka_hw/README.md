@@ -25,7 +25,7 @@ def get_calories(query):
         print("Error:", response.status_code, response.text)
         return 0
 ```
-ปล. **API_KEY** ต้องไปสมัคร account api-ninjas ก่อน
+ปล. **API_KEY** ต้องไปสมัคร account api-ninjas ก่อน \
 ปล2. ก่อนรัน start zookeeper/kafka server บนทั้ง 2 เครื่องก่อน
 eg. 
 ```shell

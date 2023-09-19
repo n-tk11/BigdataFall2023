@@ -14,7 +14,7 @@ ingredient_ul = soup.find('ul', class_='ingredient')
 def get_calories(query):
     #print('query=',query)
     api_url = 'https://api.api-ninjas.com/v1/nutrition?query={}'.format(query)
-    response = requests.get(api_url, headers={'X-Api-Key': 'G0JUdMfBTM9fB1awvtBxfQ==0fwOwsEexgpkHqi7'})
+    response = requests.get(api_url, headers={'X-Api-Key': '**API_KEY**'})
     if response.status_code == requests.codes.ok:
         jsonResponse = response.json()
         sum = 0 

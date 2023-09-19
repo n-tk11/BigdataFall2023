@@ -34,3 +34,7 @@ bin/kafka-server-start.sh config/server.properties  &
 ```
 และก็รัน notebook *test_kafka_producer_new.ipynb* ตามด้วย
 *test_kafka_prod_consumer_new.ipynb*
+
+sources ตั้งต้น
+- https://www.cpe.ku.ac.th/~cnc/downloads/test_kafka_producer_new.ipynb
+- https://www.cpe.ku.ac.th/~cnc/downloads/test_kafka_prod_consumer_new.ipynb

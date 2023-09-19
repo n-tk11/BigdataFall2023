@@ -14,7 +14,7 @@ ingredient_ul = soup.find('ul', class_='ingredient')
 def get_calories(query):
     #print('query=',query)
     api_url = 'https://api.api-ninjas.com/v1/nutrition?query={}'.format(query)
-    response = requests.get(api_url, headers={'X-Api-Key': '**API_KEY**'})
+    response = requests.get(api_url, headers={'X-Api-Key': **API_KEY**})
     if response.status_code == requests.codes.ok:
         jsonResponse = response.json()
         sum = 0 
@@ -25,7 +25,7 @@ def get_calories(query):
         print("Error:", response.status_code, response.text)
         return 0
 ```
-ปล. api-key ต้องไปสมัคร account api-ninjas ก่อน
+ปล. **API_KEY** ต้องไปสมัคร account api-ninjas ก่อน
 ปล2. ก่อนรัน start zookeeper/kafka server บนทั้ง 2 เครื่องก่อน
 eg. 
 ```shell

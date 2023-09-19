@@ -1,5 +1,5 @@
 ## การบ้าน Bigdata kafka 
-แก้ code ที่ process ว่า เมนูไหนมี calories เท่าไหร่ และเกิน threshhold ไหน โดยแกะจาก html จากเว็บ
+แก้ code ที่ process ว่า เมนูไหนมี calories เท่าไหร่ และเกิน threshhold ไหม โดยแกะจาก html จากเว็บ
 แก้เฉพาะไฟล์ *test_kafka_prod_consumer_new.ipynb*
 ให้ function parse เอา html ของ recipe มาแกะดู ingredient (ใช้ BeutifulSoup) คำนวน calories มาส่งไปวิเคราะห์ต่อ
 1. แกะ html หา list ingredient ตัวอย่าง code

@@ -38,3 +38,6 @@ bin/kafka-server-start.sh config/server.properties  &
 sources ตั้งต้น
 - https://www.cpe.ku.ac.th/~cnc/downloads/test_kafka_producer_new.ipynb
 - https://www.cpe.ku.ac.th/~cnc/downloads/test_kafka_prod_consumer_new.ipynb
+
+## Sol
+https://drive.google.com/file/d/1DQkFWOtMFDZ_08BK89pvE5sv8rK2oq4V/view?usp=drivesdk
